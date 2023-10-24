@@ -1,5 +1,5 @@
 #########################################################
-#### Function 1
+#### Function 1 
 ### meta-analysis function
 transcript_meta_analysis_ver2<-function(study_path_vector=study_path_vector, 
                                         grouping_path_vector=grouping_path_vector,test=c("Burden", "SKAT","SKATO","SMMAT"), 

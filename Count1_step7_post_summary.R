@@ -39,7 +39,7 @@ if(!dir.exists(outfolder_i) ){
 
     
 ## summarizing 
-   source("gs://fc-secure-fa05fe0c-78d6-4ab2-843a-e14e9400d98a/result/PheWAS_summary/transcript_meta_analysis_v2.R")
+   source("transcript_meta_analysis_v2.R")
    pvals_i_ver2 <- transcript_meta_analysis_ver2(study_path_vector=study_pathi, 
                                                  grouping_path_vector=group_i,
                                                  test=c("Burden", "SKAT", "SMMAT")) 
